@@ -180,20 +180,22 @@ let botaoLight = document.querySelector('.botaoLight')
 let linkTema = document.getElementById('style')
 
 let logo = document.getElementById('logo')
+let logoDark = document.getElementById('logoDark')
 
 botaoLight.addEventListener('click', function(e){
     // console.log(linkTema)
     if(linkTema.classList.contains("dark")){
-        console.log('PEGUEI O CLIQUE')
         linkTema.setAttribute('href', "./css/styleLight.css")
         linkTema.classList.add("light")
         linkTema.classList.remove("dark")
-        logo.src = "./img/hp/logo.png"
+        logoDark.setAttribute("hidden", "hidden")
+        logo.removeAttribute("hidden")
     } else {
         linkTema.setAttribute('href', "./css/styleDark.css")
         linkTema.classList.add("dark")
         linkTema.classList.remove("light")
-        logo.src = "./img/hp/logoDark.png"
+        logo.setAttribute("hidden", "hidden")
+        logoDark.removeAttribute("hidden")
 
     }
 })

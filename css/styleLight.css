@@ -22,6 +22,11 @@ header{
     margin: 10px 0;
 }
 
+#logoDark{
+    width: 300px;
+    margin: 10px 0;
+}
+
 nav{
     width: 30%;
     display: flex;
