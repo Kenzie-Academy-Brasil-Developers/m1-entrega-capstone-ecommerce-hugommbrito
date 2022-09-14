@@ -188,12 +188,12 @@ botaoLight.addEventListener('click', function(e){
         linkTema.setAttribute('href', "./css/styleLight.css")
         linkTema.classList.add("light")
         linkTema.classList.remove("dark")
-        logo.src = "./img/hp/Logo.svg"
+        logo.src = "./img/hp/logo.png"
     } else {
         linkTema.setAttribute('href', "./css/styleDark.css")
         linkTema.classList.add("dark")
         linkTema.classList.remove("light")
-        logo.src = "./img/hp/LogoDark.svg"
+        logo.src = "./img/hp/logoDark.png"
 
     }
 })
