@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Hugo Brito">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link id="style" class="dark" rel="stylesheet" href="./css/styleDark.css">
+    <script src="./js/hpdatabase.js"></script>
+    <script src="./js/index.js" defer></script>
+    <title>S8-01 | 🏆</title>
+</head>
+<body>
+    <header>
+        <div class="headerContainer">
+            <img id="logo" src="./img/hp/Logo.svg" alt="Logomarca da Knockturn Alley">
+            <nav>
+                <p class="navItem" id="todos">Todos</p>
+                <p class="navItem" id="Varinha">Varinhas</p>
+                <p class="navItem" id="Colecionáveis">Colecionáveis</p>
+                <p class="navItem" id="Vestes">Vestes</p>
+            </nav>
+        </div>
+    </header>
+    <div class="bodyContainer">
+        <main id="main">
+            <!-- <div class="cardContainer">
+                <div class="cardImgContainer">
+                    <img class="imagemProduto" src="./img/camiseta_preta.svg" alt="Produto">
+                </div>
+                <div class="cardInfoContainer">
+                    <button class="tipoProduto">Colecionáveis</button>
+                    <h1 class="tituloProduto">Titulo do produto</h1>
+                    <p class="textoDescricao">Aqui será inserido um pequeno textinho contendo uma breve Descrição do produto</p>
+                    <p class="preco">R$100.00</p>
+                    <p class="botaoAddCarrinho">Adicionar ao Carrinho</p>
+                </div>
+            </div>
+            <div class="cardContainer">
+                <div class="cardImgContainer">
+                    <img class="imagemProduto" src="./img/camiseta_branca.svg" alt="Produto">
+                </div>
+                <div class="cardInfoContainer">
+                    <button class="tipoProduto">Camiseta</button>
+                    <h1 class="tituloProduto">Titulo do produto</h1>
+                    <p class="textoDescricao">Aqui será inserido um pequeno textinho contendo uma breve Descrição do produto</p>
+                    <p class="preco">R$100.00</p>
+                    <p class="botaoAddCarrinho">Adicionar ao Carrinho</p>
+                </div>
+            </div>
+            <div class="cardContainer">
+                <div class="cardImgContainer">
+                    <img class="imagemProduto" src="https://www.kindpng.com/picc/m/12-129494_harry-potter-authentic-wand-hd-png-download.png" alt="Harry Potter Authentic Wand, HD Png Download@kindpng.com" alt="Produto">
+                </div>
+                <div class="cardInfoContainer">
+                    <button class="tipoProduto">Camiseta</button>
+                    <h1 class="tituloProduto">Titulo do produto</h1>
+                    <p class="textoDescricao">Aqui será inserido um pequeno textinho contendo uma breve Descrição do produto</p>
+                    <p class="preco">R$100.00</p>
+                    <p class="botaoAddCarrinho">Adicionar ao Carrinho</p>
+                </div>
+            </div>
+            <div class="cardContainer">
+                <div class="cardImgContainer">
+                    <img class="imagemProduto" src="./img/jaqueta.svg" alt="Produto">
+                </div>
+                <div class="cardInfoContainer">
+                    <button class="tipoProduto">Camiseta</button>
+                    <h1 class="tituloProduto">Titulo do produto</h1>
+                    <p class="textoDescricao">Aqui será inserido um pequeno textinho contendo uma breve Descrição do produto</p>
+                    <p class="preco">R$100.00</p>
+                    <p class="botaoAddCarrinho">Adicionar ao Carrinho</p>
+                </div>
+            </div>
+            <div class="cardContainer">
+                <div class="cardImgContainer">
+                    <img class="imagemProduto" src="./img/mascara.svg" alt="Produto">
+                </div>
+                <div class="cardInfoContainer">
+                    <button class="tipoProduto">Camiseta</button>
+                    <h1 class="tituloProduto">Titulo do produto</h1>
+                    <p class="textoDescricao">Aqui será inserido um pequeno textinho contendo uma breve Descrição do produto</p>
+                    <p class="preco">R$100.00</p>
+                    <p class="botaoAddCarrinho">Adicionar ao Carrinho</p>
+                </div>
+            </div>
+            <div class="cardContainer">
+                <div class="cardImgContainer">
+                    <img class="imagemProduto" src="./img/moletom.svg" alt="Produto">
+                </div>
+                <div class="cardInfoContainer">
+                    <button class="tipoProduto">Camiseta</button>
+                    <h1 class="tituloProduto">Titulo do produto</h1>
+                    <p class="textoDescricao">Aqui será inserido um pequeno textinho contendo uma breve Descrição do produto</p>
+                    <p class="preco">R$100.00</p>
+                    <p class="botaoAddCarrinho">Adicionar ao Carrinho</p>
+                </div>
+            </div>
+            <div class="cardContainer">
+                <div class="cardImgContainer">
+                    <img class="imagemProduto" src="./img/moletom.svg" alt="Produto">
+                </div>
+                <div class="cardInfoContainer">
+                    <button class="tipoProduto">Camiseta</button>
+                    <h1 class="tituloProduto">Titulo do produto</h1>
+                    <p class="textoDescricao">Aqui será inserido um pequeno textinho contendo uma breve Descrição do produto</p>
+                    <p class="preco">R$100.00</p>
+                    <p class="botaoAddCarrinho">Adicionar ao Carrinho</p>
+                </div>
+            </div>
+            <div class="cardContainer">
+                <div class="cardImgContainer">
+                    <img class="imagemProduto" src="./img/moletom.svg" alt="Produto">
+                </div>
+                <div class="cardInfoContainer">
+                    <button class="tipoProduto">Camiseta</button>
+                    <h1 class="tituloProduto">Titulo do produto</h1>
+                    <p class="textoDescricao">Aqui será inserido um pequeno textinho contendo uma breve Descrição do produto</p>
+                    <p class="preco">R$100.00</p>
+                    <p class="botaoAddCarrinho">Adicionar ao Carrinho</p>
+                </div>
+            </div> -->
+        </main>
+        <aside>
+            <section class="pesquisa">
+                <input class="caixaPesquisa" type="text" placeholder="Digite aqui sua pesquisa">
+                <button class="botaoLight">💡</button>
+            </section>
+            <section class="carrinhoDeCompras">
+                <div class="topoCarrinho">
+                    <p class="tituloCarrinho">Carrinho de compras</p>
+                </div>
+                <div class="meioCarrinho">
+                    <!-- <div class="carrinhoCardContainer">
+                        <div class="carrinhoCardImgContainer">
+                            <img class="carrinhoImagemProduto" src="./img/camiseta_preta.svg" alt="Produto">
+                        </div>
+                        <div class="carrinhoCardInfoContainer">
+                            <h1 class="carrinhoTituloProduto">Titulo do produto</h1>
+                            <p class="carrinhoPreco">R$100.00</p>
+                            <p class="carrinhoBotaoRemoveCarrinho">Remover do Carrinho</p>
+                        </div>
+                    </div>
+                    <div class="carrinhoCardContainer">
+                        <div class="carrinhoCardImgContainer">
+                            <img class="carrinhoImagemProduto" src="./img/camiseta_preta.svg" alt="Produto">
+                        </div>
+                        <div class="carrinhoCardInfoContainer">
+                            <h1 class="carrinhoTituloProduto">Titulo do produto</h1>
+                            <p class="carrinhoPreco">R$100.00</p>
+                            <p class="carrinhoBotaoRemoveCarrinho">Adicionar ao Carrinho</p>
+                        </div>
+                    </div>
+                    <div class="carrinhoCardContainer">
+                        <div class="carrinhoCardImgContainer">
+                            <img class="carrinhoImagemProduto" src="./img/camiseta_preta.svg" alt="Produto">
+                        </div>
+                        <div class="carrinhoCardInfoContainer">
+                            <h1 class="carrinhoTituloProduto">Titulo do produto</h1>
+                            <p class="carrinhoPreco">R$100.00</p>
+                            <p class="carrinhoBotaoRemoveCarrinho">Adicionar ao Carrinho</p>
+                        </div>
+                    </div>
+                    <div class="carrinhoCardContainer">
+                        <div class="carrinhoCardImgContainer">
+                            <img class="carrinhoImagemProduto" src="./img/camiseta_preta.svg" alt="Produto">
+                        </div>
+                        <div class="carrinhoCardInfoContainer">
+                            <h1 class="carrinhoTituloProduto">Titulo do produto</h1>
+                            <p class="carrinhoPreco">R$100.00</p>
+                            <p class="carrinhoBotaoRemoveCarrinho">Adicionar ao Carrinho</p>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="baseCarrinho">
+                    <!-- <div class="quantidade">
+                        <p>Quantidade:</p>
+                        <p>4</p>
+                    </div>
+                    <div class="total">
+                        <p>Total:</p>
+                        <p>R$200.00</p>
+                    </div> -->
+                </div>
+            </section>
+        </aside>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* ESTILIZAÇÃO DO CABEÇALHO */
+header{
+    box-shadow:0px 0px 15px 5px #c1c1c1 ;
+}
+
+.headerContainer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    width: 300px;
+    margin: 10px 0;
+}
+
+nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItem:hover{
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* ESTILIZAÇÃO DOS CARDS */
+.bodyContainer{
+    max-width: 1200px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+main{
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cardContainer{
+    background-color: #F5F5F5;
+    max-width: 30%;
+    height: 500px;
+    padding-bottom: 1px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.cardContainer:hover{
+    background-color: #F5F5F5;
+    max-width: 30%;
+    height: 500px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+    box-sizing: border-box;
+
+
+    border: 3px solid #333333;
+}
+
+.cardImgContainer{
+    width: 100%;
+    height: 45%;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+
+.imagemProduto{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.cardInfoContainer{
+    width: 100%;
+    height: 52%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tipoProduto{
+    background-color: #333333;
+    color: #F5F5F5;
+    border: none;
+    width:fit-content;
+    padding: 5px;
+}
+
+.tituloProduto{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textoDescricao{
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.preco{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.botaoAddCarrinho{
+    color: #333333;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.botaoAddCarrinho:hover{
+    color: #333333;
+    font-size: 14px;
+    cursor: pointer;
+
+    font-weight: bold;
+}
+
+
+/* ESTILIZAÇÃO DO CARRINHO DE COMPRAS */
+aside{
+    width: 25%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.pesquisa{
+    display: flex;
+    justify-content: flex-start;
+    gap: none;
+    margin-bottom: 10px;
+}
+
+.caixaPesquisa{
+    width: 90%;
+    height: 28px;
+    border: none;
+    font-size: 12px;
+    background-color: #F5F5F5;
+    margin: 0px;
+}
+
+.botaoLight{
+    width: 10%;
+    height: 30px;
+    background-color: #333333;
+    font-size: 10px;
+    padding: 0px;
+    text-align: center;
+    border: none;
+}
+
+.botaoLight:hover{
+    width: 10%;
+    height: 30px;
+    font-size: 10px;
+    padding: 0px;
+    text-align: center;
+    
+
+    background-color: #F5F5F5;
+    color: #333333;
+    border: 1px solid #333333;
+}
+
+.carrinhoDeCompras{
+    background-color: #F5F5F5;
+}
+
+.topoCarrinho{
+    background-color: #333333;
+    color:#F5F5F5;
+    text-align: center;
+    font-size: small;
+    padding: 10px;
+}
+
+.meioCarrinho{
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.carrinhoCardContainer{
+    height: 60px;
+    display: flex;
+    border-top: #c1c1c1 solid 1px;
+    border-bottom: #c1c1c1 solid 1px;
+    margin: 10px 0px;
+}
+
+.carrinhoCardContainer:hover{
+    height: 60px;
+    display: flex;
+    margin: 10px 0px;
+
+
+    border-top: #c1c1c1 solid 3px;
+    border-bottom: #c1c1c1 solid 3px;
+}
+
+.carrinhoCardImgContainer{
+    height: 85%;
+    width: 30%;
+    padding: 5px;
+}
+
+.carrinhoImagemProduto{
+    height: 100%;
+    width: 100%;
+    object-fit:contain;
+}
+
+.carrinhoCardInfoContainer{
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.carrinhoTituloProduto{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.carrinhoPreco{
+    font-size: 12px;
+}
+
+.carrinhoBotaoRemoveCarrinho{
+    font-size: 12px;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+.carrinhoBotaoRemoveCarrinho:hover{
+    font-size: 12px;
+    font-weight:900;
+}
+
+.baseCarrinho{
+    margin-top: 3px;
+    padding: 3px 0 ;
+    background-color: #333333;
+    color: #F5F5F5;
+    font-size: 14px;
+}
+
+.quantidade, .total{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
